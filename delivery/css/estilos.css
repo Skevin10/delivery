@@ -1,0 +1,93 @@
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif ;
+  }
+
+#contenido {
+    /* background-color: rgba(0, 0, 0, 0.098) ; */
+    height:120vh;
+    ;
+}
+
+#formulario{
+    background-color: #76BAB7;
+    color: rgb(255, 255, 255);
+    width: 700px;
+    height: 900px;
+    padding: 30px 70px;
+    margin-left: 175px;
+    border-radius: 80px;
+    margin-top: 200px;
+}
+
+#formulario h1{
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#formulario h4{
+    font-size: 18px;
+    color: rgb(46, 46, 46);
+    margin-top: 20px;
+}
+
+.control{
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-width: 0;
+}
+
+.caja-texto{
+    background-color: rgb(255, 255, 255);
+}
+
+.boton{
+    
+    background-color: green;
+    color:white;
+    margin-top: 100px;
+    cursor:pointer;
+    font-size: 30px;
+}
+
+.boton:hover{
+    background-color:rgb(0, 172, 0);
+    text-decoration: underline;
+}
+.boton2{
+    width: 340px;
+    background-color: rgb(176, 1, 1);
+    color:white;
+    margin-top: 10px;
+    margin-left: 180px;
+    cursor:pointer;
+    font-size: 30px;
+}
+
+.boton2:hover{
+    background-color:rgb(215, 0, 0);
+    text-decoration: underline;
+}
+
+.help-link{
+    color: rgb(96, 95, 95);
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-left: 210px;
+   
+}
+
+#help-link:hover {
+    text-decoration: underline;
+  }
+
+
+  @media (max-width: 575.98px) { 
+    
+   }
+  
